@@ -113,9 +113,7 @@
   display: flex;
   gap: 3rem;
   margin-bottom: 3rem;
-  
 }
-
 
 .cards__list {
   border-radius: 15px;
@@ -231,7 +229,7 @@
   gap: 3rem;
 }
 
-.features1__img1 {
+.features__img {
   border-radius: 1.5rem;
 }
 // ----------------------features1-end------------------
@@ -241,15 +239,14 @@
     width: 100%;
     max-width: 375px;
   }
-  .features1__card2 {
-  }
-  .features1__img {
+
+  .features__img {
     width: 32.7rem;
     height: 25rem;
     flex-shrink: 0;
     border-radius: 1.5rem;
   }
-  .features1__img1 {
+  .features__img {
     width: 32.7rem;
     height: 25rem;
     flex-shrink: 0;
@@ -267,14 +264,12 @@
     align-items: center;
     flex-direction: column;
   }
-  .features2__img {
-    width: 32.7rem;
-    height: 25rem;
+  .features__img {
+    width: 55.7rem;
+    height: 30rem;
   }
-  .features1__img1 {
-    width: 32.7rem;
-    height: 25rem;
-    flex-shrink: 0;
-    border-radius: 1.5rem;
+  .features__img {
+    width: 55.7rem;
+    height: 30rem;
   }
 }
