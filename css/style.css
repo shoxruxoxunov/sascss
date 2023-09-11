@@ -2514,6 +2514,7 @@ iframe {
 .cards__global {
   display: flex;
   gap: 3rem;
+  margin-bottom: 3rem;
 }
 
 .cards__list {
