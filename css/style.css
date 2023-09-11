@@ -518,7 +518,7 @@ main {
   }
   .hero__phone {
     position: absolute;
-    right: 9rem;
+    right: 10rem;
     top: -0.8rem;
   }
   .hero__oval-img {
@@ -580,44 +580,6 @@ main {
   }
   .btn3 {
     margin-left: 0;
-  }
-}
-@media screen and (max-width: 997px) {
-  .hero__container {
-    width: 100%;
-    max-width: 997px;
-  }
-  .hero__wrapper {
-    margin-left: -9rem;
-  }
-}
-@media screen and (max-width: 900px) {
-  .hero__container {
-    width: 100%;
-    max-width: 900px;
-  }
-  .hero__div-card2 {
-    margin-right: -8rem;
-  }
-}
-@media screen and (max-width: 850px) {
-  .hero__container {
-    width: 100%;
-    max-width: 850px;
-  }
-  .hero__wrapper {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin-left: -31rem;
-  }
-  .hero__div-card2 {
-    position: relative;
-  }
-  .hero__phone {
-    position: absolute;
-    top: -44rem;
-    left: 21rem;
   }
 }
 .features__container {
