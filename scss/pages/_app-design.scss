@@ -1,0 +1,14 @@
+.features2__img {
+  border-radius: 1.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .features2__img {
+    width: 65rem;
+    height: 20rem;
+  }
+  .features1__img1 {
+    width: 65rem;
+    height: 20rem;
+  }
+}

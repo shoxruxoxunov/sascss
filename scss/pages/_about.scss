@@ -1,0 +1,399 @@
+.hero2__container {
+  width: 1111px;
+  background-color: $primary-peach-color;
+  border-radius: 15px;
+}
+.hero2__wrapper {
+  display: flex;
+}
+.hero2__title {
+  width: 54rem;
+  color: $primary-white-color;
+  font-family: Jost;
+  font-size: 4.8rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1;
+  padding-bottom: 3.2rem;
+}
+.hero2__text {
+  width: 45.8rem;
+  color: $primary-white-color;
+  font-family: Jost;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.6;
+}
+.hero2__img-card {
+  border-radius: 1.5rem;
+  margin-left: 4.5rem;
+}
+.hero2__card {
+  padding-top: 13.5rem;
+  padding-bottom: 13.5rem;
+}
+.hero2__oval-img {
+  border-radius: 1.5rem;
+}
+.hero2__card3 {
+  position: relative;
+}
+.hero__oval3 {
+  position: absolute;
+
+  left: -111rem;
+}
+// -----------------hero-375px---------------------
+@media screen and (max-width: 375px) {
+  .hero2__container {
+    width: 100%;
+    max-width: 375px;
+    height: 850px;
+    background-image: url("../images/Bitmap.jpg");
+    background-repeat: no-repeat;
+    background-position: center bottom 187px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: -3rem;
+  }
+  .hero2__img-card {
+    display: none;
+  }
+  .hero__oval3 {
+    display: none;
+  }
+  .hero2__card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-left: -12rem;
+
+    display: inline-block;
+  }
+  .hero2__title {
+    width: 327px;
+    color: #fff;
+    text-align: center;
+    font-family: Jost;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.666;
+  }
+  .hero2__text {
+    width: 100%;
+    max-width: 327px;
+    color: #fff;
+    text-align: center;
+    font-family: Jost;
+    font-size: 1.5;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.66;
+    text-align: center;
+  }
+}
+// -----------------hero-375px-end-----------------
+
+// ------------------hero768px------------------------
+@media screen and (max-width: 768px) {
+  .hero2__container {
+    background-image: url("../images/Group33333333.jpg");
+    background-repeat: no-repeat;
+    background-position: center bottom 344px;
+    width: 100%;
+    max-width: 680px;
+    padding: 0;
+    height: 800px;
+  }
+  .hero2__img-card {
+    display: none;
+  }
+  .hero__oval3 {
+    display: none;
+  }
+  .hero2__card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 55rem;
+    padding: 0;
+  }
+  .hero2__title {
+    width: 57.3rem;
+    padding-bottom: 3.2rem;
+    margin: 0;
+  }
+  .hero2__text {
+    width: 57.3rem;
+    text-align: center;
+    padding-left: 1.4rem;
+    margin-left: 4rem;
+  }
+}
+// -------------------768px end-----------------------
+
+// ---------------------info_start------------------------
+
+.info__container {
+  margin-top: 16rem;
+  margin-bottom: 16rem;
+  border-radius: 15px;
+  background: #fdf3f0;
+  width: 1111px;
+  display: flex;
+  gap: 9.4rem;
+  height: 64rem;
+}
+
+.info__foto {
+  margin-left: -5rem;
+}
+.info__title {
+  padding-top: 15.4rem;
+  padding-bottom: 15.4rem;
+}
+.info__text {
+  width: 44.5rem;
+  color: $primary-peach-color;
+  font-family: Jost;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  padding-bottom: 2.4rem;
+}
+.info__poragraf {
+  width: 44.5rem;
+  color: #333136;
+  font-family: Jost;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.6;
+}
+// ----------------------info-end-----------------------
+// -------------------info-375px------------------------
+@media screen and (max-width: 375px) {
+  .info__container {
+    width: 100%;
+    max-width: 375px;
+  }
+  .info__text {
+    color: #e7816b;
+    text-align: center;
+    font-family: Jost;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.12;
+    width: 100%;
+    max-width: 327px;
+  }
+  .info__poragraf {
+    color: #333136;
+    text-align: center;
+    font-family: Jost;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.66;
+    width: 100%;
+    max-width: 327px;
+  }
+  .info__title {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+// ------------------info-375px-------------------------
+
+// ---------------------info_768px---------------------
+@media screen and (max-width: 768px) {
+  .info__container {
+    width: 100%;
+    max-width: 695px;
+    background-image: url("../images/Groupgirl.jpg");
+    background-repeat: no-repeat;
+    background-position: top 345px;
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 12rem;
+    height: 800px;
+  }
+  .info__foto {
+    display: none;
+  }
+  .info__title {
+    padding-top: 39rem;
+    text-align: center;
+    margin: 0;
+  }
+  .info__text {
+    width: 57.6rem;
+    text-align: center;
+  }
+  .info__poragraf {
+    width: 57.6rem;
+    text-align: center;
+    margin: 0;
+  }
+}
+// --------------------info-768px----------------------
+
+// -----------------------see-location------------------
+.see-location__container {
+  margin-bottom: 17.6rem;
+}
+.see-location__card {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 10rem;
+
+  margin-left: 10rem;
+}
+.see-location__wrapper {
+  text-align: center;
+}
+.see-location__info {
+  color: $secondary-dark-grey-color;
+  text-align: center;
+  font-family: Jost;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.3;
+  letter-spacing: 5px;
+  text-align: center;
+  padding-top: 4.8rem;
+}
+.btn2 {
+  margin-top: 3.2rem;
+}
+// -----------------------see-location-----------------
+
+// ---------------------see-locations-768px-----------
+@media screen and (max-width: 768px) {
+  .see-location__container {
+    width: 100%;
+    max-width: 768px;
+    margin: 0;
+    padding-bottom: 12rem;
+  }
+  .see-location__card {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+  .see-location__wrapper {
+    margin: 0;
+  }
+}
+// ----------------------end--------------------------
+
+// ------------------info-start------------------------
+
+.info2__container {
+  border-radius: 15px;
+  background: #fdf3f0;
+  width: 1111px;
+  display: flex;
+  margin-bottom: 32rem;
+}
+
+.info2__title {
+  padding-top: 15.4rem;
+  padding-bottom: 13rem;
+}
+.info2__text {
+  width: 44.5rem;
+  color: $primary-peach-color;
+  font-family: Jost;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  padding-bottom: 2.4rem;
+}
+.info2__poragraf {
+  color: #333136;
+  font-family: Jost;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+.info2__foto {
+  margin-left: 14rem;
+}
+// -------------------info2-end----------------------
+// -------------------info2-375px--------------------
+@media screen and (max-width: 375px) {
+  .info2__container {
+    width: 100%;
+    max-width: 375px;
+    padding: 0;
+  }
+  .info2__text {
+    color: #e7816b;
+    text-align: center;
+    font-family: Jost;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.12;
+    width: 100%;
+    max-width: 327px;
+  }
+  .info2__poragraf {
+    color: #333136;
+    text-align: center;
+    font-family: Jost;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.66;
+    width: 100%;
+    max-width: 327px;
+  }
+  .info2__title {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-left: 2rem;
+    flex-direction: column;
+  }
+}
+// -------------------info2-375px-end---------------------
+
+@media screen and (max-width: 768px) {
+  .info2__container {
+    width: 100%;
+    max-width: 665px;
+    background-image: url("../images/Group5555.jpg");
+    background-repeat: no-repeat;
+    background-position: top 345px;
+  }
+  .info2__foto {
+    display: none;
+  }
+  .info2__text {
+    width: 57.2rem;
+  }
+  .info2__poragraf {
+    width: 57.2rem;
+  }
+  .info2__title {
+    margin-top: 20rem;
+    text-align: center;
+  }
+}

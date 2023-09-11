@@ -1,0 +1,308 @@
+main {
+  flex-grow: 1;
+}
+
+.hero__container {
+  background-color: $primary-peach-color;
+  width: 1111px;
+  border-radius: 1.5rem;
+  padding-top: 14.5rem;
+  padding-bottom: 14.5rem;
+  padding-left: 10.5rem;
+}
+
+.hero__title {
+  width: 54rem;
+  height: 16.5rem;
+  flex-shrink: 0;
+  color: $primary-white-color;
+  font-family: Jost;
+  font-size: 4.8rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1;
+}
+.hero__text {
+  width: 44.5rem;
+  color: $primary-white-color;
+  font-family: Jost;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.6;
+  padding-bottom: 4rem;
+  margin-top: 1.1rem;
+}
+.hero__oval-img {
+  position: absolute;
+  right: -4rem;
+  top: -49rem;
+  border: radius 50%;
+  opacity: 0.8;
+}
+.hero__img-card {
+  position: relative;
+}
+.hero__div-card2 {
+  position: relative;
+}
+.hero__phone {
+  position: absolute;
+  right: 4rem;
+  top: -42.8rem;
+}
+
+// --------------hero-start-----768px-----------------------------
+@media screen and (max-width: 768px) {
+  .hero__container {
+    padding-top: 6rem;
+    padding-bottom: 12rem;
+    width: 100%;
+    max-width: 695px;
+    height: 1077px;
+    flex-direction: column;
+  }
+  .hero__wrapper {
+    flex-direction: column;
+  }
+  .hero__phone {
+    position: absolute;
+    right: 9rem;
+    top: -0.8rem;
+  }
+  .hero__oval-img {
+    top: -45rem;
+  }
+  .hero__title {
+    text-align: center;
+  }
+  .hero__text {
+    text-align: center;
+    margin-top: -8px;
+    margin-left: 6rem;
+  }
+  .btn3 {
+    margin-top: -2rem;
+    margin-left: 20rem;
+    margin-bottom: 7.5rem;
+  }
+}
+// ---------------hero------768px end---------------------------
+
+// -----------------hero-375px start----------------------------
+@media screen and (max-width: 375px) {
+  .hero__container {
+    width: 100%;
+    max-width: 450px;
+    height: 1051px;
+    padding-top: 8rem;
+    padding-bottom: 12rem;
+  }
+
+  .hero__title {
+    width: 327px;
+    height: 118px;
+    flex-shrink: 0;
+    text-align: center;
+    font-family: Jost;
+    font-size: 3.2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.12;
+    margin-right: 10rem;
+    text-align: center;
+    margin-left: -8.8rem;
+    padding-bottom: 1.4rem;
+  }
+  .hero__text {
+    width: 327px;
+    text-align: center;
+    font-family: Jost;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.66;
+    text-align: center;
+    margin-left: -9rem;
+  }
+  .hero__phone {
+    position: absolute;
+    position: absolute;
+    right: -2rem;
+    top: -0.8rem;
+  }
+  .btn3 {
+    margin-left: 0;
+  }
+}
+
+// -----------------hero-375px-end-----------------------------
+
+// ------------------features start------------------------------
+
+.features__container {
+  display: flex;
+  gap: 3rem;
+  padding-top: 16rem;
+}
+
+.features__card {
+  display: flex;
+}
+
+.features__img {
+  margin-bottom: 2.4rem;
+}
+.features__img {
+  border-radius: 1.5rem;
+}
+
+// ------------------features---and------------------------
+
+// -------------------features-375px-start----------------
+@media screen and (max-width: 375px) {
+  .features__container {
+    width: 100%;
+    max-width: 375px;
+    padding-right: 2.4rem;
+    padding-left: 1.4rem;
+    padding-bottom: 12rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .features__card {
+    display: flex;
+    flex-direction: column;
+  }
+  .features__img {
+    width: 100%;
+    max-width: 327px;
+    height: 250px;
+    flex-shrink: 0;
+    border-radius: 1.5rem;
+  }
+  .features__imgweb {
+    width: 100%;
+    max-width: 327px;
+    height: 250px;
+    flex-shrink: 0;
+    border-radius: 1.5rem;
+  }
+}
+// ------------------features-375px-start----------------
+
+// ------------------features-768px-start----------------
+@media screen and (max-width: 768px) {
+  .features__container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 804px;
+    padding-bottom: 16rem;
+  }
+  .features__card {
+    flex-direction: column;
+  }
+  .features__imgweb {
+    width: 68.9rem;
+    height: 20rem;
+    border-radius: 1.5rem;
+  }
+  .features__img {
+    width: 68.9rem;
+    height: 20rem;
+    border-radius: 1.5rem;
+  }
+}
+// ------------------features-768px-end-----------------
+
+// ------------------card-start----------------------------
+.card {
+  background: #f1f3f5;
+}
+.card__container {
+  padding-top: 16rem;
+  padding-bottom: 32.3rem;
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.card__title {
+  width: 35rem;
+  color: $secondary-dark-grey-color;
+  text-align: center;
+  font-family: Jost;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.3;
+  letter-spacing: 5px;
+  margin-top: 4.8rem;
+}
+.card__text {
+  width: 35rem;
+  color: $secondary-dark-grey-color;
+  text-align: center;
+  font-family: Jost;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.6;
+  margin-top: 3.2rem;
+}
+.card__img {
+  margin-left: 8rem;
+  border-radius: 50%;
+}
+// ------------------card-end-----------------------------
+// ------------------card-375px-start--------------------
+@media screen and (max-width: 375px) {
+  .card__container {
+    width: 100%;
+    max-width: 375px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 12rem;
+  }
+  .card__wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+  .card__title {
+    text-align: center;
+    width: 100%;
+    max-width: 35rem;
+  }
+  .card__text {
+    text-align: center;
+    width: 100%;
+    max-width: 35rem;
+  }
+}
+// ------------------card375px-end-----------------------
+
+// ------------------card-768px -start--------------------
+@media screen and (max-width: 768px) {
+  .card__container {
+    width: 100%;
+    flex-direction: column;
+    max-width: 768px;
+  }
+  .card__wrapper {
+    display: flex;
+    gap: 3.8rem;
+    margin: 0;
+  }
+  .card__title {
+    width: 43.9rem;
+  }
+  .card__text {
+    width: 43.9rem;
+  }
+  .card__img {
+    margin-left: 0;
+    margin-top: 4rem;
+  }
+}
+// ------------------card-768px -end----------------------

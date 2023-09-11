@@ -1,0 +1,71 @@
+.btn {
+  border-radius: 8px;
+  color: $secondary-dark-grey-color;
+  font-family: Jost;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 1.8rem 2.4rem;
+  transition: 1s;
+  background-color: $primary-white-color;
+}
+.btn:hover {
+  background-color: $secondary-light-peach-color;
+}
+
+.btn2 {
+  color: $primary-white-color;
+  font-family: Jost;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border-radius: 8px;
+  background: $primary-peach-color;
+  padding: 1.8rem 2.4rem;
+  transition: 1s;
+}
+.btn2:hover {
+  background-color: $secondary-light-peach-color;
+}
+
+.btn3 {
+  border-radius: 8px;
+  color: $secondary-dark-grey-color;
+  font-family: Jost;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 1.8rem 2.4rem;
+  transition: 1s;
+  background-color: $primary-white-color;
+}
+.btn3:hover {
+  background-color: $secondary-light-peach-color;
+}
+.btn4 {
+  border-radius: 8px;
+  color: $secondary-dark-grey-color;
+  font-family: Jost;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 1.8rem 2.4rem;
+  transition: 1s;
+  background-color: $primary-white-color;
+  align-self: flex-start;
+}
+.btn4:hover {
+  background-color: $secondary-light-peach-color;
+}
